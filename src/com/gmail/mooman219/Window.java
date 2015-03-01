@@ -76,8 +76,7 @@ public class Window extends JWindow {
         setEnabled(false);
         setFocusable(false);
         setSize(100, height);
-        setLocation(random.nextInt(width - 100), 0);
-        getContentPane().setBackground(new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256)));
+        reset();
     }
 
     private void reset() {
