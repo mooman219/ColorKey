@@ -1,0 +1,53 @@
+############
+# Class Files
+############
+
+*.class
+
+############
+# Package Files
+############
+
+*.jar
+*.war
+*.ear
+
+############
+# NetBeans specific
+############
+
+*nbproject/
+*nbbuild/
+*build/
+*dist/
+*nbdist/
+manifest.mf
+build.xml
+nbbuild.xml
+nbactions.xml
+
+#################
+## IntelliJ
+#################
+
+*.iml
+/.idea
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+############
+## Mac
+############
+
+*.DS_STORE
+/nbproject/private/
+/build/
+nb-configuration.xml
